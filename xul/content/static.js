@@ -5179,7 +5179,7 @@ function addHistory (source, obj, mergeData)
     {
         if ("setActivityMarker" in source)
             source.setActivityMarker(true);
-        dd("" + windowHasFocus + " " + current);
+        //dd("" + windowHasFocus + " " + current);
     }
 
     if (obj)
